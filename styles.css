@@ -1,0 +1,76 @@
+/* Basic reset and styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fafafa;
+  padding: 0 1em;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Header Styling */
+.main-header {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.main-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+.main-header p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Navigation Bar */
+.landing-menu {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #007ACC;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  border: 2px solid transparent;
+}
+
+.main-nav a:hover {
+  border-bottom: 2px solid #007ACC;
+}
+
+/* Content Sections */
+.content-section {
+  margin-bottom: 2em;
+}
+
+.content-section h2 {
+  margin-bottom: 0.5em;
+  font-size: 1.8em;
+  color: #007ACC;
+}
+
+.content-section p,
+.content-section li {
+  margin-bottom: 0.5em;
+  color: #444;
+}
+
+/* Footer Styling */
+.main-footer {
+  text-align: center;
+  margin: 2em 0;
+  color: #999;
+}
